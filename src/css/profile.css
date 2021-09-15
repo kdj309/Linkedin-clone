@@ -1,0 +1,128 @@
+.profile-container {
+  flex: 0.23;
+  background-color: white;
+  border-radius: 12px;
+  align-self: flex-start;
+}
+.background-div>img {
+    width: 100%;
+    height: 70px;
+}
+.profile-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: -30px;
+    cursor: pointer;
+}
+.profile-text-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.profile-text-div>p{
+    color: grey;
+    cursor: pointer;
+}
+.profile-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    gap: 5px;
+    padding: 0.3em 0.5em;
+}
+.recent-section-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 8px;
+    background-color: white;
+    padding: 0.6em 0.5em;
+    margin-top: 5px;
+}
+.recent-section{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 8px;
+    align-items: flex-start;
+}
+.recent-section:hover{
+    background-color: whitesmoke;
+}
+.recent-section>h6{
+    font-size: 14px;
+    cursor: pointer;
+    color: grey;
+}
+.recent-section>h6:hover{
+    color: black;
+}
+@media (min-width: 1281px) {
+
+}
+
+/* 
+        ##Device = Laptops, Desktops
+        ##Screen = B/w 1025px to 1280px
+      */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+}
+
+/* 
+        ##Device = Tablets, Ipads (portrait)
+        ##Screen = B/w 768px to 1024px
+      */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* 
+        ##Device = Low Resolution Tablets, Mobiles (Landscape)
+        ##Screen = B/w 481px to 767px
+      */
+
+@media (min-width: 481px) and (max-width: 780px) {
+    .profile-text-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+    }
+}
+/* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+
+@media (min-width: 0px) and (max-width: 480px) {
+.profile-container{
+    flex: 0.23 1;
+    background-color: white;
+    border-radius: 12px;
+    align-self: center;
+    width: 100%;
+}
+}
+

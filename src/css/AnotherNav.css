@@ -1,0 +1,88 @@
+.Link-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.2em 0.3em;
+}
+.sign-up-btn{
+    color: grey;
+  padding:  .375rem .75rem;
+  text-decoration: none;
+}
+.sign-up-btn:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.sign-in-btn{
+    color:#0073b1;
+    background-color:white;
+    border:2px solid #0073b1
+}
+@media (min-width: 1281px) {
+
+}
+
+/* 
+        ##Device = Laptops, Desktops
+        ##Screen = B/w 1025px to 1280px
+      */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+}
+
+/* 
+        ##Device = Tablets, Ipads (portrait)
+        ##Screen = B/w 768px to 1024px
+      */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* 
+        ##Device = Low Resolution Tablets, Mobiles (Landscape)
+        ##Screen = B/w 481px to 767px
+      */
+
+@media (min-width: 481px) and (max-width: 780px) {
+  
+}
+/* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+
+@media (min-width: 0px) and (max-width: 480px) {
+.Link-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.0em 0.0em;
+}
+.sign-up-btn{
+    color: grey;
+  padding:  0rem 0rem;
+  text-decoration: none;
+  font-size: 12px;
+}
+.sign-in-btn{
+    color:#0073b1;
+    background-color:white;
+    border:2px solid #0073b1 !important;
+    padding: 0.105em .105em !important;
+}
+}
+
+

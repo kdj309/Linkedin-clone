@@ -1,0 +1,184 @@
+.Post-Icon-container {
+    padding: 0.5em 0.5em;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    gap: 10px;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.Post-Icon-container:hover{
+background-color: whitesmoke;
+}
+.post-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.Post-Icon-container > h6 {
+  cursor: pointer;
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 0 !important;
+}
+.post-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.3em 0.6em;
+  gap:40px;
+  background-color: white;
+}
+.post-input-container > button {
+    align-self: flex-end;
+    border: 0.5px solid grey;
+    border-radius: 27px;
+    outline: none;
+    flex: 0.83 1;
+    background-color: none;
+    padding: 1em 1.3em;
+    cursor: pointer;
+}
+.post-input-container > button:hover {
+  background-color: white !important;
+  color: gray !important;
+  border-color: black !important;
+}
+.post-input-container > button:focus {
+  box-shadow: 0 0 0 .25rem rgba(230, 235, 241, 0.5) !important;
+}
+ .post-parent-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: white;
+    padding: 0.3em 0.3em;
+} 
+.icons{
+  font-size: "24px"
+}
+.input-icon-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.input-icon-div{
+  padding: 0.2em 0.2em;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.input-icon{
+  font-size: "16px"
+}
+@media (min-width: 1281px) {
+
+}
+
+/* 
+        ##Device = Laptops, Desktops
+        ##Screen = B/w 1025px to 1280px
+      */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+}
+
+/* 
+        ##Device = Tablets, Ipads (portrait)
+        ##Screen = B/w 768px to 1024px
+      */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* 
+        ##Device = Low Resolution Tablets, Mobiles (Landscape)
+        ##Screen = B/w 481px to 767px
+      */
+
+@media (min-width: 481px) and (max-width: 780px) {
+  
+}
+/* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+
+@media (min-width: 0px) and (max-width: 480px) {
+.post-input-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.3em 0.3em;
+  grid-gap: 12px;
+  gap: 11px;
+  background-color: white;
+  width: 100%;
+}
+.post-input-container>button{
+  align-self: flex-end;
+  border: 0.5px solid grey;
+  border-radius: 27px;
+  outline: none;
+  flex: 0.83 1;
+  background-color: none;
+  padding: 0.5em 0.7em;
+  cursor: pointer;
+}
+.Post-Icon-container>h6{
+  cursor: pointer;
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 0 !important;
+}
+.icons{
+  font-size: "15px"
+}
+.post-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.Post-Icon-container{
+  padding: 0.2em 0.2em;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+  grid-gap: 10px;
+  gap: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.input-icon-div>h6{
+  font-size: 12px;
+}
+}
