@@ -1,5 +1,7 @@
 LinkedIn-Clone
-Developed Linkedin-web clone using React-js and firebase.
+
+Linkedin-web clone developed using React-js and firebase.
+
 Basic primary features are added like 
 
 1.Authentication.
